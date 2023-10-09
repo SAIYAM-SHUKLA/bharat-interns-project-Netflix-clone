@@ -1,0 +1,134 @@
+body{
+    background-color:rgb(35,35,35);
+}
+
+
+
+.firstsection{
+    /* background-image: url('background1.jpg'); */
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('background1.jpg');
+
+    /* background-color: rgba(0, 0, 0, 0.2); */
+   
+}
+.heading{
+   
+    color: red;
+  
+  font-size: 50px;
+  width: 30vw;
+}
+.part1{
+    display: flex;
+  justify-content: space-around;
+  height: 20vh;
+  flex-direction: row;
+  
+}
+.signupetc {
+    width: 40vw;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+
+  .btn {
+    height: 31px;
+  
+    background-color: red;
+  
+    border-radius: 10px;
+  
+    color: white;
+  
+    width: 76px;
+  
+  }
+
+
+.lang {
+    margin-right: 21px;
+  
+    border: 2px solid white;
+  
+    width: 93px;
+  
+    height: 21px;
+  
+    color: white;
+  
+  }
+  .secondsection {
+    height: 75vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+    .w{
+        color: white;
+    }
+    .input1 {
+        width: 244px;
+      
+        height: 41px;
+      
+        background-color: rgba(0,0,0,0.8);
+      
+        color: white;
+        border-radius: 5px;
+      
+      }
+      .btn2{
+        width: 200px;
+      
+        height: 41px;
+        background-color: red;
+        border-radius: 5px;
+
+      }
+      .toperhead{
+        font-size: 55px;
+      }
+
+      .s{
+        height: 70vh;
+        background-color: black;
+        display: flex;
+        margin-top: 11px;
+      }
+      .no1 {
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+      }
+
+
+      .secondpart{
+        display: flex;
+      }
+
+
+      .sixthpart{
+        background-color: black;
+        display: flex;
+        margin-top: 11px;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .faqs {
+        color: white;
+        background-color: rgb(45, 45, 45);
+        width: 75vw;
+        position: relative;
+        left: 167px;
+        margin-bottom: 13px;
+        padding: 10px;
+      }
+      .sixthpart h1{
+        color: white;
+      }
